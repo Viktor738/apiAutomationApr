@@ -1,4 +1,4 @@
-import supertest from "supertest";
+import * as supertest from 'supertest';
 
 // declare global {
 //     namespace NodeJS {

@@ -3,7 +3,7 @@ import { getUser, signUp } from "../../../helper/user"
 let cookie: string;
 describe('CREATE TOUR', () => {
 
-    it('create tour', async () => {
+    it('Create tour', async () => {
         const userImport = getUser('admin')
         console.log('userImport', userImport);
         await signUp(userImport).then(res => {
