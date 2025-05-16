@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuites name="jest tests" tests="1" failures="0" errors="0" time="3.676">
   <testsuite name="CREATE TOUR" errors="0" failures="0" skipped="0" timestamp="2025-05-11T03:35:10" time="3.363" tests="1">
     <testcase classname="CREATE TOUR Create tour" name="CREATE TOUR Create tour" time="0.641">
+=======
+<testsuites name="jest tests" tests="2" failures="0" errors="0" time="4.925">
+  <testsuite name="MONGODB connection" errors="0" failures="0" skipped="0" timestamp="2025-05-16T00:59:54" time="4.533" tests="2">
+    <testcase classname="MONGODB connection Connect to the collection and find user" name="MONGODB connection Connect to the collection and find user" time="0.062">
+    </testcase>
+    <testcase classname="MONGODB connection Create new user with imported data" name="MONGODB connection Create new user with imported data" time="0.837">
+>>>>>>> 1744859f5ea0d94ac6bcc84bd14ece8abead752b
     </testcase>
   </testsuite>
 </testsuites>
