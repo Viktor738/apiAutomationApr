@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testsuites name="jest tests" tests="1" failures="0" errors="0" time="3.676">
-  <testsuite name="CREATE TOUR" errors="0" failures="0" skipped="0" timestamp="2025-05-11T03:35:10" time="3.363" tests="1">
-    <testcase classname="CREATE TOUR Create tour" name="CREATE TOUR Create tour" time="0.641">
-=======
-<testsuites name="jest tests" tests="2" failures="0" errors="0" time="4.925">
-  <testsuite name="MONGODB connection" errors="0" failures="0" skipped="0" timestamp="2025-05-16T00:59:54" time="4.533" tests="2">
-    <testcase classname="MONGODB connection Connect to the collection and find user" name="MONGODB connection Connect to the collection and find user" time="0.062">
+<testsuites name="jest tests" tests="6" failures="0" errors="0" time="5.201">
+  <testsuite name="POSTS" errors="0" failures="0" skipped="0" timestamp="2025-05-19T01:41:34" time="4.818" tests="6">
+    <testcase classname="POSTS get request" name="POSTS get request" time="0.34">
     </testcase>
-    <testcase classname="MONGODB connection Create new user with imported data" name="MONGODB connection Create new user with imported data" time="0.837">
->>>>>>> 1744859f5ea0d94ac6bcc84bd14ece8abead752b
+    <testcase classname="POSTS POST request" name="POSTS POST request" time="0.201">
+    </testcase>
+    <testcase classname="POSTS PATCH request with title version 1" name="POSTS PATCH request with title version 1" time="0.366">
+    </testcase>
+    <testcase classname="POSTS PATCH request with title version 2" name="POSTS PATCH request with title version 2" time="0.384">
+    </testcase>
+    <testcase classname="POSTS PATCH request with title version 3" name="POSTS PATCH request with title version 3" time="0.4">
+    </testcase>
+    <testcase classname="POSTS DELETE request" name="POSTS DELETE request" time="0.205">
     </testcase>
   </testsuite>
 </testsuites>
