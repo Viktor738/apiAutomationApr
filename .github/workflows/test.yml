@@ -9,8 +9,7 @@ on:
      branches: 
        - master
        - develop
-       
-       jobs:
+jobs:
            jest-test-for-push:
                 runs-on: ubuntu-latest
                 steps:
@@ -23,7 +22,7 @@ on:
                         node-version: '18'
 
                     - name: Install npm dependencies
-                      run: npm ci
+                      run: npm install
 
                     - name: Run Jest Test
                       run: npm jest test.spec.ts
